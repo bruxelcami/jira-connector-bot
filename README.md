@@ -13,19 +13,29 @@ A Telegram bot token (I got this from BotFather)
 A Jira account with API access and a project where the issues will be created.
 
 How to Set Up
+
 Clone the repo:  https://github.com/bruxelcami/jira-connector-bot.git
+
 git clone https://github.com/bruxelcami/jira-connector-bot.git
+
 cd jira-telegram-connector
 
 Install the dependencies:
+
 npm install
 
 Create a .env file in the root of the project and add the following:
+
 BOT_TOKEN=your_telegram_bot_token
+
 JIRA_BASE_URL=https://your-jira-instance.atlassian.net
+
 JIRA_EMAIL=your-jira-email
+
 JIRA_TOKEN=your-jira-api-token
+
 PORT=3000 # or any other port you prefer
+
 
 Start the bot:
 npm start
@@ -38,6 +48,7 @@ help Fix the login bug
 If everything goes well, the bot will reply with the ID of the created Jira issue.
 
 Project Structure
+
 index.js: The main file that sets up the bot and handles incoming messages.
 package.json: Project details and dependencies.
 Dependencies
@@ -53,8 +64,10 @@ JIRA_EMAIL: The email you use for your Jira account.
 JIRA_TOKEN: Your Jira API token (you can create one in your Jira settings).
 
 Notes
+
 The project assumes your Jira project key is FIT. If your project uses a different key, you'll need to update that in the code.
 Error handling is pretty basic—errors will be logged in the console if anything goes wrong.
 
 License
+
 This project is open-source and uses the ISC License. Feel free to modify and adapt it!
