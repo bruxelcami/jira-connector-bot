@@ -71,3 +71,11 @@ Error handling is pretty basic—errors will be logged in the console if anythin
 License
 
 This project is open-source and uses the ISC License. Feel free to modify and adapt it!
+
+This project uses the following languages and technologies:
+
+- **JavaScript**: Core language used to build the application.
+- **Node.js**: Runtime environment to run JavaScript code outside the browser.
+- **Express.js**: Web framework used to handle HTTP requests and set up the server.
+- **Telegraf**: A library for creating Telegram bots using Node.js.
+- **Axios**: Promise-based HTTP client to make requests to external APIs (e.g., Jira API).
